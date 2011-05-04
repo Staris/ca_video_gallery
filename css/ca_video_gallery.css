@@ -1,0 +1,8 @@
+/* Context Admin Video Gallery CSS */
+  /* Template One */
+  #ca-video-gallery-template-one .view-display-id-panel_pane_1 .views-view-grid td {text-align: center; vertical-align: bottom; width: 20%;}
+  #ca-video-gallery-template-one .view-display-id-panel_pane_1 .views-view-grid .views-field-field-ca-video-gallery-v-video-duration {font-style: italic; font-size: 11px; color: #808080;}
+  #ca-video-gallery-template-one .view-display-id-panel_pane_1 .views-view-grid .views-field-field-ca-video-gallery-v-video-embed a {width: 120px; margin: 0 auto;}
+  #ca-video-gallery-template-one .view-display-id-panel_pane_1 .views-view-grid .views-field-field-ca-video-gallery-v-video-embed a span {display: none;}
+  #ca-video-gallery-template-one .pane-field-ca-video-gallery-v-video {float: left; margin-right: 10px;}
+  #ca-video-gallery-template-one .pane-field-ca-video-gallery-v-video a span {display: none;}
