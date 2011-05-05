@@ -154,7 +154,7 @@ function ca_video_gallery_default_page_manager_handlers() {
   $display->title_pane = 'new-1';
   $handler->conf['display'] = $display;
 
-  $export['node_view_panel_context'] = $handler;
+  $export['ca_video_gallery_node_view_panel_context'] = $handler;
   return $export;
 }
 
