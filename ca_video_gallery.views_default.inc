@@ -566,6 +566,49 @@ function ca_video_gallery_views_default_views() {
   $handler->override_option('argument_input', array());
   $handler->override_option('link_to_view', 0);
   $handler->override_option('inherit_panels_path', 0);
+  $handler = $view->new_display('block', 'Video Block Template One', 'block_1');
+  $handler->override_option('sorts', array(
+    'created' => array(
+      'order' => 'DESC',
+      'granularity' => 'second',
+      'id' => 'created',
+      'table' => 'node',
+      'field' => 'created',
+      'override' => array(
+        'button' => 'Use default',
+      ),
+      'relationship' => 'none',
+    ),
+  ));
+  $handler->override_option('css_class', 'ca-video-template-one');
+	$handler->override_option('use_ajax', TRUE);
+  $handler->override_option('items_per_page', 2);
+  $handler->override_option('style_plugin', 'default');
+  $handler->override_option('style_options', array(
+    'grouping' => '',
+  ));
+  $handler->override_option('block_description', '');
+  $handler->override_option('block_caching', -1);
+  $handler = $view->new_display('block', 'Video Block Template Two', 'block_2');
+  $handler->override_option('sorts', array(
+    'random' => array(
+      'order' => 'ASC',
+      'id' => 'random',
+      'table' => 'views',
+      'field' => 'random',
+      'override' => array(
+        'button' => 'Use default',
+      ),
+      'relationship' => 'none',
+    ),
+  ));
+  $handler->override_option('css_class', 'ca-video-template-one');
+  $handler->override_option('items_per_page', 1);
+  $handler->override_option('use_pager', '0');
+  $handler->override_option('style_plugin', 'default');
+  $handler->override_option('style_options', array());
+  $handler->override_option('block_description', '');
+  $handler->override_option('block_caching', -1);
 
   $views[$view->name] = $view;
 

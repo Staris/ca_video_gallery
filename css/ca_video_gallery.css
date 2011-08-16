@@ -6,3 +6,9 @@
   #ca-video-gallery-template-one .view-display-id-panel_pane_1 .views-view-grid .views-field-field-ca-video-gallery-v-video-embed a span {display: none;}
   #ca-video-gallery-template-one .pane-field-ca-video-gallery-v-video {float: left; margin-right: 10px;}
   #ca-video-gallery-template-one .pane-field-ca-video-gallery-v-video a span {display: none;}
+
+  /* Block Template One and Two */
+  .ca-video-template-one, .ca-video-template-two {text-align: center;}
+  .ca-video-template-one .views-row {border-top: 1px solid #CFDDE5; padding-top: 10px;}
+  .ca-video-template-one .views-row-first {border-top: medium none; padding-top: 0;}
+  .ca-video-template-one .emvideo-modal span, .ca-video-template-two .emvideo-modal span {display: none;}
